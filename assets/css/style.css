@@ -16,17 +16,16 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  scroll-behavior: smooth ;
-}
-.show{
-  display :none ;
+body{scroll-behavior: smooth ;}
+.show{display :none ;}
+a{
+  text-decoration :none ;
+  cursor :pointer ;
 }
 /**********
   header 
 **********/
 header{
-  backgrond :#02507F ;
   display: flex ;
   position :relative ;
 }
@@ -52,9 +51,7 @@ header img{
     height: 150px;
 }
 
-.custom-shape-divider-top-1600163439 .shape-fill {
-    fill: #5BB4F9;
-}
+.custom-shape-divider-top-1600163439 .shape-fill {fill: #5BB4F9;}
 
 /** For mobile devices **/
 @media (max-width: 767px) {
@@ -76,11 +73,11 @@ header img{
 }
 #active:checked ~ .wrapper{
   clip-path: circle(75%);
-  z-index: 3;
+  z-index: 2;
 }
 .menu-btn{
   position: fixed;
-  z-index: 4;
+  z-index: 3;
   right: 1.25rem;
   top:1.25rem ;
   height:3.125rem;
@@ -93,12 +90,8 @@ header img{
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-#active:checked ~ .menu-btn{
-  background :transparent ;
-}
-#active:checked ~ .menu-btn i:before{
-  content: "\f00d";
-}
+#active:checked ~ .menu-btn{background :transparent ;}
+#active:checked ~ .menu-btn i:before{content: "\f00d";}
 .wrapper ul{
   position: absolute;
   top: 50%;
@@ -107,9 +100,7 @@ header img{
   list-style: none;
   text-align: center;
 }
-.wrapper ul li{
-  margin: 0.9375rem 0;
-}
+.wrapper ul li{margin: 0.9375rem 0;}
 .wrapper ul li a{
   text-decoration: none;
   font-size: 1.875rem;
@@ -132,16 +123,12 @@ header img{
   z-index: -1;
   transition: transform 0.3s ease;
 }
-.wrapper ul li a:hover:after{
-  transform: scaleY(1);
-}
+.wrapper ul li a:hover:after{transform: scaleY(1);}
 .wrapper ul li a:hover{
   color: inherit;
   outline :none!important ;
 }
-input[type="checkbox"]{
-  display: none;
-}
+input[type="checkbox"]{display: none;}
 
 /**********
 image slider 
@@ -154,12 +141,10 @@ image slider
 }
 
 /* Hide the images by default */
-.mySlides {
-  display: none;
-}
+.mySlides {display: none;}
 .mySlides img{
   height :26rem;
-  width :100%;
+  width :100vw;
 }
 /* Caption text */
 .text {
@@ -196,15 +181,56 @@ image slider
 hi section 
 **********/
 .hi{
-  background: var(--seaBlue);
+  background: var(--skyBlue);
   margin-top : -2rem !important ;
+  padding-bottom: 3rem ;
 }
-h1{
+.hi h2{
   color :var(--darkBlue);
+  margin-bottom :2rem ;
+  padding-bottom :0 ;
+  padding-top :5rem ;
+  text-shadow :1px 1px 1px var(--greenish), -1px -1px 1px var(--greyish);
+}
+.hi h2,
+.products > h2{
   font-size :3rem ;
-  padding-top :2rem ;
+  letter-spacing :0.25rem ;
   text-align :center ;
 }
-h1 span{
-  font-weight: 300;
+.hi > p,
+.products > p{
+  display :block ;
+  line-height :1.7;
+  margin: 0 auto ;
+  text-align: justify ;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.27);
+  width :80%;
+}
+.hi > p > a{
+  color:#fff ;
+  font-size :1.3rem ;
+}
+
+/*********
+  Products 
+**********/
+.products{
+  color:var(--darkBlue);
+  padding :3rem 0;
+}
+.products > h2{margin-bottom:2rem ;}
+.products > p{
+  line-height :1.7;
+}
+
+div{
+  display:flex;
+  flex-direction:row ;
+  flex-wrap: nowrap ;
+  flex-basis: 9rem;
+}
+div > img{
+  width :3rem;
+  height :auto ;
 }
