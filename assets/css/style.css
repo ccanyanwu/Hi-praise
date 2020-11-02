@@ -137,7 +137,8 @@ image slider
 .slideshow-container {
   max-width: 62.5rem;
   position: relative;
-  margin: 1rem auto 0;
+  margin: 1rem auto 0 ;
+  
 }
 
 /* Hide the images by default */
@@ -154,7 +155,7 @@ image slider
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
+  text-align: center ;
   background: -webkit-linear-gradient(var(--darkBlue), var(--skyBlue));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -176,10 +177,40 @@ image slider
   from {opacity: .4}
   to {opacity: 1}
 } 
-
+#small{
+  background :var(--seaBlue);
+  margin-top: -5px;
+  padding :3rem 2rem;
+}
+#small p{
+  color :var(--skyBlue);
+  font-size :1.5rem;
+  line-height :1.7;
+  text-align :center ;
+}
+.progressive{
+  background: #e4e4e4 ;
+  padding: 3rem 2rem ;
+}
+.progressive p{
+  line-height: 1.5 ;
+  text-align :justify ;
+}
+.progressive div{
+  align-items: center ;
+  display :flex ;
+  justify-content:center ;
+  margin: 3rem auto ;
+}
+.progressive div img{
+  border:4px solid var(--skyBlue);
+  width :8rem;
+}
+.progressive div :first-child{border-right: 2px solid var(--skyBlue) }
+.progressive div :last-child{border-left: 2px solid var(--skyBlue)}
 /**********
 hi section 
-**********/
+**********
 .hi{
   background: var(--skyBlue);
   margin-top : -2rem !important ;
@@ -212,9 +243,9 @@ hi section
   font-size :1.3rem ;
 }
 
-/*********
+*********
   Products 
-**********/
+**********
 .products{
   color:var(--darkBlue);
   padding :3rem 0;
@@ -234,3 +265,21 @@ div > img{
   width :3rem;
   height :auto ;
 }
+.products_images{
+  display :grid ;
+  grid-gap :1rem ;
+  grid-template-columns :1fr ;
+  place-items :center ;
+}
+.products_images div{
+  display :flex ;
+  flex-direction :column ;
+  padding :2rem 0.5rem 0;
+}
+.products_images div  p{
+  font-size :1.5rem ;
+ text-align :center ;
+}
+.products_images  div  img{
+  width:100%;
+}*/
