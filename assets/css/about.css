@@ -66,6 +66,10 @@ span.line{border-bottom: 0.5px solid var(--seaBlue) ;}
   grid-template-columns :1fr ;
   padding :3rem 2rem ;
 }
+#policies div h2 img{
+  display :inline-block ;
+  width :1.5rem;
+}
 #policies div p{
   font-size :0.9rem;
   line-height :1.5 ;
