@@ -5,6 +5,7 @@
   --greyish:#5b6897;
   --greenish:#777f82;
 }
+body{color:var(--darkBlue)}
 .main_img{
   height:9rem;
   margin :3rem 0;
@@ -18,4 +19,20 @@ main{
   display :grid ;
   grid-gap: 2rem ;
   grid-template-columns :1fr ;
+}
+main div{
+  padding :2rem ;
+}
+h1,
+h2{
+  font-weight: 100;
+  opacity :0.75 ;
+}
+h1+p{
+  font-size :0.9rem ;
+  line-height :1.5 ;
+  padding-top :1rem ;
+}
+#started{
+  padding :0 2rem ;
 }
