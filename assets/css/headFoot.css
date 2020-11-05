@@ -161,7 +161,7 @@ section.subFoot{
   width :4rem;
 }
 .follow p a{
-  color :inherit ;
+  color :var(--greenish) ;
   margin-bottom :2rem ;
 }
 footer{
@@ -175,8 +175,9 @@ footer p{
   text-align :center ;
 }
 footer p a{
-  color :inherit ;
+  color :var(--greenish) ;
   font-weight :bold ;
   letter-spacing: 0.015rem ;
+  line-height :1.25 ;
   text-decoration :none ;
 }

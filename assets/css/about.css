@@ -19,20 +19,56 @@ main{
   display :grid ;
   grid-gap: 2rem ;
   grid-template-columns :1fr ;
+  padding-bottom:3rem ;
 }
 main div{
   padding :2rem ;
 }
 h1,
 h2{
+  font-size :1.75rem ;
   font-weight: 100;
   opacity :0.75 ;
 }
-h1+p{
+h1+p, 
+#started h2 + p, 
+ol li{
   font-size :0.9rem ;
   line-height :1.5 ;
   padding-top :1rem ;
 }
 #started{
   padding :0 2rem ;
+}
+#started h2 + p{text-align :justify ;}
+span.line{border-bottom: 0.5px solid var(--seaBlue) ;}
+/**********
+  mission 
+**********/
+#mission {
+  background :#e5e5e5 ;
+  padding :3rem 2rem ;
+}
+#oil{
+  background :var(--seaBlue);
+  color :var(--skyBlue);
+  font-size :1.25rem ;
+  line-height :1.7 ;
+  padding :3rem 2rem ;
+  text-align :center ;
+}
+/**********
+  policies 
+**********/
+#policies{
+  display :grid ;
+  grid-gap :3rem ;
+  grid-template-columns :1fr ;
+  padding :3rem 2rem ;
+}
+#policies div p{
+  font-size :0.9rem;
+  line-height :1.5 ;
+  padding-top: 1rem ;
+  text-align: justify ;
 }
