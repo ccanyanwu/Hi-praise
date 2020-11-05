@@ -1,3 +1,8 @@
+//set footer date automatically 
+const footer = document.querySelector('footer');
+let today = new Date ();
+let year = today.getUTCFullYear();
+footer.innerHTML =`<p>&copy; ${year} HI-PRAISE Table Water | All Rights Reserved | Designed with love by <a href="tel:+2347033548895" >THRIVE TECH </a></p>`;
 let slideIndex = 0;
 showSlides();
 
@@ -12,8 +17,3 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
-//set footer date automatically 
-const footer = document.querySelector('footer');
-let today = new Date ();
-let year = today.getUTCFullYear();
-footer.innerHTML =`<p>&copy; ${year} HI-PRAISE Table Water | All Rights Reserved | Designed with love by <a href="tel:+2347033548895" >THRIVE TECH </a></p>`;

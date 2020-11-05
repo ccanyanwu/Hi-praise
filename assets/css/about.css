@@ -1,0 +1,21 @@
+:root{
+  --skyBlue:#5bb4f9;
+  --darkBlue:#181b20;
+  --seaBlue:#1f6087;
+  --greyish:#5b6897;
+  --greenish:#777f82;
+}
+.main_img{
+  height:9rem;
+  margin :3rem 0;
+  width: 100%;
+}
+
+/**********
+get started 
+**********/
+main{
+  display :grid ;
+  grid-gap: 2rem ;
+  grid-template-columns :1fr ;
+}

@@ -162,6 +162,7 @@ section.subFoot{
 }
 .follow p a{
   color :inherit ;
+  margin-bottom :2rem ;
 }
 footer{
   background :var(--darkBlue);
@@ -172,4 +173,10 @@ footer p{
   color :var(--skyBlue);
   font-size :0.75rem ;
   text-align :center ;
+}
+footer p a{
+  color :inherit ;
+  font-weight :bold ;
+  letter-spacing: 0.015rem ;
+  text-decoration :none ;
 }
