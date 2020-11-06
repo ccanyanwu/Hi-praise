@@ -1,0 +1,38 @@
+:root{
+  --skyBlue:#5bb4f9;
+  --darkBlue:#181b20;
+  --seaBlue:#1f6087;
+  --greyish:#5b6897;
+  --greenish:#777f82;
+}
+body{color:var(--darkBlue)}
+.main_img{
+  height:9rem;
+  margin :3rem 0;
+  width: 100%;
+}
+h1{
+  font-size :2rem ;
+  font-weight :lighter;
+  opacity :0.95;
+  padding-bottom: 2rem ;
+  text-align :center ;
+}
+#products{
+  display :grid ;
+  grid-gap :4rem ;
+  grid-template-columns :1fr ;
+  margin :1rem 0 3rem;
+  place-items :center ;
+}
+#products div{text-align :center ;}
+#products  div  img{
+  border-radius :0.5rem ;
+  box-shadow:  6px 6px 11px #d9d9d9,  -6px -6px 11px #d9d9d9;
+  height :auto;
+  width :80%;
+}
+#products div p{
+  padding: 2rem 1rem ;
+  text-align: center ;
+}
