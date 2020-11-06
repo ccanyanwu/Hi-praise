@@ -24,22 +24,22 @@ h1 + p{
 }
 #products{
   display :grid ;
-  grid-gap :2rem ;
+  grid-gap :4rem ;
   grid-template-columns :1fr ;
   margin :1rem 0 3rem;
   place-items :center ;
 }
 #products div{
+  height :30rem;
   width: 20rem ;
-  height :24rem;
   border-radius: 15px;
-  background: linear-gradient(145deg, #ffffff, #e6e6e6);
   box-shadow:  6px 6px 11px #d9d9d9,  -6px -6px 11px #ffffff;
 }
 #products div img{
-  height :auto;
+  height :24rem;
   width :100%;
 }
 #products div p{
+  padding: 2rem 1rem ;
   text-align: center ;
 }
