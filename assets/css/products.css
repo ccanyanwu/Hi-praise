@@ -11,3 +11,35 @@ body{color:var(--darkBlue)}
   margin :3rem 0;
   width: 100%;
 }
+h1{
+  font-size :2rem ;
+  font-weight :lighter;
+  opacity :0.95;
+  text-align :center ;
+}
+h1 + p{
+  font-size :0.9rem ;
+  line-height :1.5 ;
+  padding :1rem 1rem 2rem ;
+}
+#products{
+  display :grid ;
+  grid-gap :2rem ;
+  grid-template-columns :1fr ;
+  margin :1rem 0 3rem;
+  place-items :center ;
+}
+#products div{
+  width: 20rem ;
+  height :24rem;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow:  6px 6px 11px #d9d9d9,  -6px -6px 11px #ffffff;
+}
+#products div img{
+  height :auto;
+  width :100%;
+}
+#products div p{
+  text-align: center ;
+}

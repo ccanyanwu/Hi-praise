@@ -21,6 +21,7 @@ body{
   font-family: 'Mulish', sans-serif;
 }
 .show{display :none ;}
+span.line{border-bottom: 0.5px solid var(--seaBlue) ;}
 a{
   text-decoration :none ;
   cursor :pointer ;
