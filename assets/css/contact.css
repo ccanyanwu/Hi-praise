@@ -5,7 +5,7 @@
   --greyish:#5b6897;
   --greenish:#777f82;
 }
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
 body{color:var(--darkBlue)}
 .main_img{
   height:9rem;
@@ -14,8 +14,7 @@ body{color:var(--darkBlue)}
 }
 h1{
   font-size :2rem ;
-  font-weight :200!important ;
-  oacity :0.75;
+  font-weight :300 ;
   padding :1rem 1rem 2rem ;
   text-align :center ;
 }
@@ -25,13 +24,32 @@ h1{
 **********/
 main{
   display: grid ;
-  grid-gap :2rem ;
+  grid-row-gap :2rem ;
   grid-template-columns :1fr ;
   place-items :center ;
 }
 #visit p{
-  color:var(--greyish);
-  font-size :1.5rem ;
-  font-weight :100;
-  padding :2rem ;
+  font-size :1.25rem ;
+  font-weight :200;
+  padding :0 2rem 2rem ;
+}
+.visit_details{
+  display:flex ;
+  padding :1rem 0 0 2rem ;
+}
+.visit_details div i, 
+.visit_details div h2, 
+.visit_details div h2 + p{font-size: 0.9rem !important;}
+.visit_details div h2{padding-left: 2rem ;}
+.visit_details div h2+p{font-weight: 400!important;}
+hr{
+  background :var(--darkBlue);
+  height :0.2rem;
+  width :100%;
+}
+form {
+}
+form input {
+  display :block ;
+  width: 80vw;
 }

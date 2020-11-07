@@ -6,12 +6,10 @@
   --greenish:#777f82;
 }
 
-/*imported Google font */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /*basic css reset */
 *{
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Raleway'/*, sans-serif*/;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
