@@ -60,7 +60,7 @@ image slider
   padding :3rem 2rem;
 }
 #small p{
-  color :var(--skyBlue);
+  color :var(--darkBlue);
   font-size :1.5rem;
   line-height :1.7;
   text-align :center ;
@@ -70,6 +70,7 @@ image slider
   padding: 3rem 2rem ;
 }
 .progressive p{
+  font-size :0.9rem;
   line-height: 1.5 ;
   text-align :justify ;
 }
@@ -86,6 +87,7 @@ image slider
 .progressive div :first-child{border-right: 2px solid var(--skyBlue) }
 .progressive div :last-child{border-left: 2px solid var(--skyBlue)}
 .bottlingFac{
+  font-size :0.9rem;
   line-height:1.5 ;
   padding: 3rem 2rem ;
   text-align :justify ;

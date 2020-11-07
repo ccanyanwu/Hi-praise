@@ -89,7 +89,7 @@ header img{
   line-height: 3.125rem;
   font-size: 2rem;
   padding-top: 0.17125rem;
-  color: #fff;
+  color: var(--darkBlue);
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
