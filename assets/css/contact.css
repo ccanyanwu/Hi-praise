@@ -49,7 +49,8 @@ hr{
 }
 form {
 }
-form input {
+form input, 
+textarea{
   border :1px solid var(--seaBlue);
   border-radius :0.3rem ;
   display :block ;
@@ -58,7 +59,12 @@ form input {
   padding: 0 0.5rem ;
   width: 80vw;
 }
-form input:focus{
+textarea{
+  height :11rem ;
+  padding :0.5rem ;
+}
+form input:focus, 
+textarea:focus{
   border :1px solid var(--skyBlue);
   outline :none ;
 }
