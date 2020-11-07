@@ -58,6 +58,8 @@ textarea{
   margin-bottom: 1.5rem ;
   padding: 0 0.5rem ;
   width: 80vw;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow:  9px 9px 14px #dedede, -9px -9px 14px #ffffff;
 }
 textarea{
   height :11rem ;
@@ -67,6 +69,8 @@ form input:focus,
 textarea:focus{
   border :1px solid var(--skyBlue);
   outline :none ;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow:  20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
 }
 form > button{
   background: var(--skyBlue);
@@ -78,7 +82,15 @@ form > button{
   margin-bottom: 2rem ;
   outline:none ;
   width:80vw;
+  background: linear-gradient(145deg, #61c1ff, #52a2e0);
+  box-shadow:  9px 9px 14px #c4c4c4, -9px -9px 14px #c4c4c4;
 }
 form > button > i{
   margin-left: 1rem ;
+}
+iframe{
+  display :block ;
+  height :22rem ;
+  margin :2rem auto 3rem;
+  width:90%;
 }
