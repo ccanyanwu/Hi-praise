@@ -18,6 +18,7 @@ body{
   scroll-behavior: smooth ;
   font-family: 'Mulish', sans-serif;
 }
+a{cursor: pointer ;}
 .show{display :none ;}
 span.line{border-bottom: 0.5px solid var(--seaBlue) ;}
 a{
