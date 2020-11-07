@@ -68,3 +68,17 @@ textarea:focus{
   border :1px solid var(--skyBlue);
   outline :none ;
 }
+form > button{
+  background: var(--skyBlue);
+  border :0;
+  border-radius :0.3rem ;
+  font-size :1rem ;
+  font-weight :500!important;
+  height :2.5rem;
+  margin-bottom: 2rem ;
+  outline:none ;
+  width:80vw;
+}
+form > button > i{
+  margin-left: 1rem ;
+}
