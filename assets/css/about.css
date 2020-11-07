@@ -27,7 +27,7 @@ main div{
 h1,
 h2{
   font-size :1.75rem ;
-  font-weight: 100;
+  font-weight: 300;
   opacity :0.75 ;
 }
 h1+p, 
@@ -50,7 +50,7 @@ ol li{
 }
 #oil{
   background :var(--seaBlue);
-  color :var(--skyBlue);
+  color :var(--darkBlue);
   font-size :1.25rem ;
   line-height :1.7 ;
   padding :3rem 2rem ;

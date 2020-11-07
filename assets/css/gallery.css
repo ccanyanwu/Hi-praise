@@ -13,8 +13,7 @@ body{color:var(--darkBlue)}
 }
 h1{
   font-size :2rem ;
-  font-weight :lighter;
-  opacity :0.95;
+  font-weight :300 ;
   padding-bottom: 2rem ;
   text-align :center ;
 }
