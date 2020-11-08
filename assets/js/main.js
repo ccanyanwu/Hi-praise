@@ -2,7 +2,7 @@
 const footer = document.querySelector('footer');
 let today = new Date ();
 let year = today.getUTCFullYear();
-footer.innerHTML =`<p>&copy; ${year} HI-PRAISE Table Water | All Rights Reserved | Designed with love by <a href="tel:+2347033548895" >THRIVE TECH </a></p>`;
+footer.innerHTML =`<p>&copy; ${year} HI-PRAISE Table Water | All Rights Reserved | Built by <a href="tel:+2347033548895" >THRIVE TECH </a></p>`;
 let slideIndex = 0;
 showSlides();
 
