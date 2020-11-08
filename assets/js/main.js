@@ -6,6 +6,18 @@ footer.innerHTML =`<p>&copy; ${year} HI-PRAISE Table Water | All Rights Reserved
 let slideIndex = 0;
 showSlides();
 
+/*/for the form 
+const form = document.querySelector('.btn'), 
+      name = document.querySelectorAll('input'),
+      text = document.querySelector('textarea');
+//event listener 
+form.addEventListener(click, 
+function (e){
+  alert('yes');
+  window.location.href = 'contact.html';
+  e.preventDefault();
+});*/
+
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
