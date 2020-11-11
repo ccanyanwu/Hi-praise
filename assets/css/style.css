@@ -110,3 +110,33 @@ image slider
   line-height :1.5 ;
   padding :0 2rem ;
 }
+/************
+MEDIA QUERIES
+************/
+/*tablet view*/
+@media all and (min-width:48rem){
+  .slideshow-container {margin: 7rem auto;}
+
+  #small{padding :3rem 6rem;}
+  #small p{
+    font-size :2.5rem;
+    line-height :1.5;
+  }
+
+  .progressive{padding: 3rem 6rem ;}
+  .progressive p{font-size :1.1rem;}
+
+  .bottlingFac{
+    font-size :1.1rem;
+    padding: 3rem 6rem ;
+  }
+  
+  #preFoot h2{
+    font-size :2rem ;
+    padding: 0 6rem 1rem ;
+  }
+  #preFoot p{
+    line-height :1.5 ;
+    padding :0 6rem ;
+  }
+}

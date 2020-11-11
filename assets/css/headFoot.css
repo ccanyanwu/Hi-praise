@@ -181,3 +181,12 @@ footer p a{
   line-height :1.25 ;
   text-decoration :none ;
 }
+/************
+MEDIA QUERIES
+************/
+/*tablet view*/
+@media all and (min-width:48rem){
+  .address{
+    padding:2rem 6rem 0;
+  }
+}
