@@ -115,7 +115,13 @@ MEDIA QUERIES
 ************/
 /*tablet view*/
 @media all and (min-width:48rem){
-  .slideshow-container {margin: 7rem auto;}
+  .slideshow-container {margin: 7rem 0;}
+  .mySlides img{
+    display: block;
+    height :26rem;
+    margin: 0 auto;
+    width :80%;
+  }
 
   #small{padding :3rem 6rem;}
   #small p{

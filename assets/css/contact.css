@@ -25,7 +25,7 @@ h1{
 main{
   display: grid ;
   grid-row-gap :2rem ;
-  grid-template-columns :1fr ;
+  grid-template-columns :1fr;
   place-items :center ;
 }
 #visit p{
@@ -46,8 +46,6 @@ hr{
   background :var(--darkBlue);
   height :0.2rem;
   width :100%;
-}
-form {
 }
 form input, 
 textarea{
@@ -93,4 +91,37 @@ iframe{
   height :22rem ;
   margin :2rem auto 3rem;
   width:90%;
+}
+/************
+MEDIA QUERIES
+************/
+/*tablet view*/
+@media all and (min-width:48rem){
+  .main_img{
+    display: block;
+    height:auto;
+    margin :7rem auto;
+    width: 90%;
+  }
+  h1{font-size :2.2rem ;}
+
+  form input, 
+  textarea{
+    margin:1.5rem auto 1.5rem ;
+    width: 60vw;
+  }
+  form > button{
+    margin:0 auto 2rem ;
+    width:60vw;
+  }
+  iframe{width:60%;}
+}
+
+/*mini laptops*/
+@media all and (min-width:48rem){
+  main{
+    grid-gap :2rem ;
+    grid-template-columns :5fr 1fr auto;
+  }
+  hr{display: none;}
 }

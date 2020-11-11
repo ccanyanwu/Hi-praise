@@ -42,3 +42,22 @@ h1 + p{
   padding: 2rem 1rem ;
   text-align: center ;
 }
+/************
+MEDIA QUERIES
+************/
+/*tablet view*/
+@media all and (min-width:48rem){
+  .main_img{
+    display: block;
+    height:auto;
+    margin :7rem auto;
+    width: 90%;
+  }
+
+  h1 + p{
+    font-size :1.1rem ;
+    text-align:center ;
+  }
+
+  #products{grid-template-columns :1fr 1fr;}
+}

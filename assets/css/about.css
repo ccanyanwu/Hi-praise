@@ -21,9 +21,7 @@ main{
   grid-template-columns :1fr ;
   padding-bottom:3rem ;
 }
-main div{
-  padding :2rem ;
-}
+main div{padding :2rem ;}
 h1,
 h2{
   font-size :1.75rem ;
@@ -37,9 +35,7 @@ ol li{
   line-height :1.5 ;
   padding-top :1rem ;
 }
-#started{
-  padding :0 2rem ;
-}
+#started{padding :0 2rem ;}
 #started h2 + p{text-align :justify ;}
 /**********
   mission 
@@ -74,4 +70,29 @@ ol li{
   line-height :1.5 ;
   padding-top: 1rem ;
   text-align: justify ;
+}
+/************
+MEDIA QUERIES
+************/
+/*tablet view*/
+@media all and (min-width:48rem){
+  .main_img{
+    display: block;
+    height:auto;
+    margin :7rem auto;
+    width: 100%;
+  }
+
+  main  div{padding :2rem 6rem;}
+  #started{padding :0 6rem ;}
+
+  #mission {padding :3rem 6rem ;}
+
+  #oil{
+    font-size :1.45rem ;
+    padding :3rem 6rem ;
+  }
+
+  #policies{padding :3rem 6rem ;}
+  #policies div p{font-size :1.1rem;}
 }

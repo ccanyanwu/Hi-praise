@@ -31,7 +31,24 @@ h1{
   height :auto;
   width :80%;
 }
-#products div p{
-  padding: 2rem 1rem ;
-  text-align: center ;
+/************
+MEDIA QUERIES
+************/
+/*tablet view*/
+@media all and (min-width:48rem){
+  .main_img{
+    display: block;
+    height:auto;
+    margin :7rem auto;
+    width: 90%;
+  }
+
+  h1{font-size :2.2rem ;}
+
+  #products{
+    grid-template-columns :1fr 1fr;
+    grid-gap :2rem ;
+    margin: 1rem 2rem 3rem;
+  }
+  #products  div  img{height :15rem;}
 }
