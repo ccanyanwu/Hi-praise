@@ -115,12 +115,12 @@ MEDIA QUERIES
 ************/
 /*tablet view*/
 @media all and (min-width:48rem){
-  .slideshow-container {margin: 7rem 0;}
+  .slideshow-container {margin: 7rem auto;}
   .mySlides img{
     display: block;
     height :26rem;
     margin: 0 auto;
-    width :80%;
+    width :60%;
   }
 
   #small{padding :3rem 6rem;}
@@ -144,5 +144,30 @@ MEDIA QUERIES
   #preFoot p{
     line-height :1.5 ;
     padding :0 6rem ;
+  }
+}
+/*laptop view*/
+@media all and (min-width:75rem){
+  .mySlides img{width :50%;}
+  #small,
+  .bottlingFac{padding :3rem 12rem;}
+  .progressive,
+  #stack,
+  #preFoot{
+    display: grid;
+    gap: 2rem;
+  }
+  .progressive{
+    grid-template-columns: 2fr 1fr;
+    padding: 3rem 2rem 3rem 10rem;
+  }
+  #stack{
+    grid-template-columns: 1fr 2fr;
+    padding: 3rem 10rem 3rem 2rem;
+  }
+  #preFoot{
+    grid-template-columns: 1fr 3fr 1fr;
+    padding:  6rem ;
+    place-items: center;
   }
 }

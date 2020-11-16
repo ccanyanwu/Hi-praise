@@ -189,3 +189,52 @@ MEDIA QUERIES
   section.subFoot{grid-template-columns :4fr 1fr 3fr  ;}
   .address{padding:2rem 3rem ;}
 }
+/*laptop view*/
+@media all and (min-width:75rem){
+  .hide{display: none;}
+  .show{display :contents ;}
+  header,
+  ul.tab{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  header{justify-content: space-between;}
+  ul.tab{
+    list-style-type: none;
+    justify-content: space-around;
+    width: 40rem ;
+    text-align: center;
+  }
+  ul li{
+    display: inline-block;
+    margin:0.975rem 0;
+  }
+  ul li a{
+    text-decoration: none;
+    font-size: 1.475rem;
+    font-weight: 500;
+    padding: 0.3125rem 1.875rem;
+    color: var(--darkBlue);
+    position: relative;
+    line-height: 3.125rem;
+    transition: all 0.3s ease;
+  }
+  ul li a:after{
+    position: absolute;
+    content: "";
+    background: #fff;
+    width: 100%;
+    height: 3.125rem;
+    left: 0;
+    border-radius: 3.125rem;
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.3s ease;
+  }
+  ul li a:hover:after{transform: scaleY(1);}
+  ul li a:hover{
+    color: inherit;
+    outline :none!important ;
+  }
+}
