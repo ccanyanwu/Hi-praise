@@ -186,7 +186,6 @@ MEDIA QUERIES
 ************/
 /*tablet view*/
 @media all and (min-width:48rem){
-  .address{
-    padding:2rem 6rem 0;
-  }
+  section.subFoot{grid-template-columns :4fr 1fr 3fr  ;}
+  .address{padding:2rem 3rem ;}
 }

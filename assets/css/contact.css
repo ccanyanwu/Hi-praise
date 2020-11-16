@@ -111,6 +111,7 @@ MEDIA QUERIES
     width: 60vw;
   }
   form > button{
+    cursor: pointer;
     margin:0 auto 2rem ;
     width:60vw;
   }
@@ -118,10 +119,14 @@ MEDIA QUERIES
 }
 
 /*mini laptops*/
-@media all and (min-width:48rem){
+@media all and (min-width:62rem){
   main{
     grid-gap :2rem ;
     grid-template-columns :5fr 1fr auto;
   }
   hr{display: none;}
+  form input, 
+  textarea,
+  form > button{width: 40vw;
+  }
 }

@@ -48,7 +48,7 @@ MEDIA QUERIES
   #products{
     grid-template-columns :1fr 1fr;
     grid-gap :2rem ;
-    margin: 1rem 2rem 3rem;
+    margin: 1rem 2rem 6rem  !important;
   }
   #products  div  img{height :15rem;}
 }

@@ -96,3 +96,11 @@ MEDIA QUERIES
   #policies{padding :3rem 6rem ;}
   #policies div p{font-size :1.1rem;}
 }
+/*mini laptops*/
+@media all and (min-width:62rem){
+  main{
+    gap: 0 ;
+    grid-template-columns : 2fr 1fr ;
+  }
+  #started{padding :2rem 2rem 0 0 ;}
+}

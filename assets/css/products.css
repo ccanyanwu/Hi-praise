@@ -23,7 +23,7 @@ h1 + p{
 }
 #products{
   display :grid ;
-  grid-gap :4rem ;
+  grid-row-gap :4rem ;
   grid-template-columns :1fr ;
   margin :1rem 0 3rem;
   place-items :center ;
@@ -59,5 +59,19 @@ MEDIA QUERIES
     text-align:center ;
   }
 
-  #products{grid-template-columns :1fr 1fr;}
+  #products{
+    grid-template-columns :1fr 1fr;
+    margin :1rem auto 6rem;
+    max-width: 70%;
+  }
+
+  #products div{
+    height :24rem;
+    width: 14rem ;
+  }
+  #products div img{height :18rem;}
+}
+/*mini laptops*/
+@media all and (min-width:62rem){
+  h1 + p{padding :1rem 15rem 2rem ;}
 }
