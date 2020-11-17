@@ -44,6 +44,7 @@ main{
 .visit_details div h2+p{font-weight: 400!important;}
 hr{
   background :var(--darkBlue);
+  display: block;
   height :0.2rem;
   width :100%;
 }
@@ -129,4 +130,15 @@ MEDIA QUERIES
   textarea,
   form > button{width: 40vw;
   }
+}
+/*laptop view*/
+@media all and (min-width:75rem){
+  .main_img{height:22rem;}
+  main{padding-right: 6rem;}
+  hr{
+    display:block;
+    height :100%;
+    width :0.2rem;
+  }
+  iframe{width:80%;}
 }

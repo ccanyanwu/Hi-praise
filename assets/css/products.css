@@ -75,3 +75,12 @@ MEDIA QUERIES
 @media all and (min-width:62rem){
   h1 + p{padding :1rem 15rem 2rem ;}
 }
+/*laptop view*/
+@media all and (min-width:75rem){
+  .main_img{height:22rem;}
+  #products{
+    grid-template-columns :repeat(4, 1fr);
+    gap: 4rem;
+    justify-content: center;
+  }
+}

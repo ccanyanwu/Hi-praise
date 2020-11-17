@@ -104,3 +104,21 @@ MEDIA QUERIES
   }
   #started{padding :2rem 2rem 0 0 ;}
 }
+/*laptop view*/
+@media all and (min-width:75rem){
+  .main_img{height:22rem;}
+
+  main{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  #mission,
+  #oil {padding :3rem 12rem ;}
+
+  #policies{
+    display: grid;
+    gap: 4rem;
+    grid-template-columns:1fr 1.7fr 1fr;
+  }
+}
