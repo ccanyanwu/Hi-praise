@@ -6,7 +6,10 @@
   --greenish:#777f82;
 }
 
-body{color:var(--darkBlue)}
+body{
+  color:var(--darkBlue);
+  overflow-x: hidden !important;
+}
 .main_img{
   height:9rem;
   margin :3rem 0;
